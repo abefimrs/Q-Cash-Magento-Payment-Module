@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <QcashFsb_Qcpg>
+      <active>true</active>
+      <codePool>community</codePool>
+      <depends>
+        <Mage_Payment />
+      </depends>
+    </QcashFsb_Qcpg>
+  </modules>
+</config>
