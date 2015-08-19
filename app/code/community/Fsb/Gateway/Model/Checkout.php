@@ -16,9 +16,7 @@ class Fsb_Gateway_Model_Checkout extends Mage_Payment_Model_Method_Abstract {
     }
 
     public function getWebmoneyUrl() {
-		$url = 'http://bangladeshbrand.com/bracpay/payment.php';
-		// For new separate key
-		//$url = 'http://bangladeshbrand.com/bracpay/bracbbrandpayment.php';
+		$url = '<GATEWAY URL>';
         return $url;
     }
 
@@ -56,12 +54,12 @@ class Fsb_Gateway_Model_Checkout extends Mage_Payment_Model_Method_Abstract {
 		*	redirect url is the url to redirect	
 		*/
 		
-		$payment_method = 'brac';
-		$marchankID = 'FSBBRAND';
+		$payment_method = '<MEHTOD NAME>';
+		$marchankID = '<MARCHANT ID>';
 		
 		
-		$domain_name = 'http://bangladeshbrands.com/';
-		$redirect_url = 'http://bangladeshbrands.com/gateway/redirect/success/';
+		$domain_name = '<DOMAIN NAME>';
+		$redirect_url = '<DOMAIN NAME>/gateway/redirect/success/';
 
 
         $params = array(
